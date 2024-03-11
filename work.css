@@ -1,0 +1,32 @@
+/* CSS for Work Page */
+#workPage {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#workPage h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    margin: 20px;
+    width: 300px; /* Adjust box width as needed */
+    height: 300px; /* Adjust box height as needed */
+    border: 2px solid #ccc; /* Add border around the box */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.photo img {
+    width: 100%; /* Make image fill the box */
+    height: 100%; /* Make image fill the box */
+    object-fit: cover; /* Cover the box with the image */
+}
